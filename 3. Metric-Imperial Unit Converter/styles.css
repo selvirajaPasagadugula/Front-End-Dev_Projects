@@ -1,0 +1,72 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: inter, sans-serif;
+    text-align: center;
+    color: #eee;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    background: linear-gradient(246.26deg, #2B75EC 0%, #2EC4DE 100%);
+    padding: 7%;
+}
+
+h1 {
+    color: #ededed;
+}
+
+h1,
+h4,
+p {
+    margin: 0;
+}
+
+#user-input {
+    font-size: 100px;
+    font-weight: 900;
+    padding: 4%;
+}
+
+.btn-dark {
+    border: none;
+    padding: 10px 15px;
+    background: #222;
+    color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-dark:hover {
+    background: #313131;
+}
+
+input[type="text"],
+select {
+    padding: 8px;
+}
+
+.conversion {
+    background: #222;
+    padding: 3%;
+}
+
+.conversion-detail {
+    padding: 1.5%;
+}
+
+.unit-title {
+    padding: 10px;
+}
+
+.conversion-unit {
+    font-weight: 100;
+}

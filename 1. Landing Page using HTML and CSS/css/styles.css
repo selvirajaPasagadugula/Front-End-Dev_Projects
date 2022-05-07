@@ -1,0 +1,128 @@
+/* 
+font-family: 'Tapestry',cursive;
+font-family: 'Ubuntu',sans-serif; 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #509b85;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  /* line-height: 1.6; */
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a,
+a:active,
+a:visited {
+  font-weight: 500;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.btn-action {
+  background-color: #e4c356;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn-action:hover {
+  background-color: #eccd67;
+}
+
+/***************** HEADER Styles ******************/
+.container {
+  margin: 12% 10%;
+}
+
+.page-title {
+  font-family: "Tapestry", cursive;
+  line-height: 0.8;
+}
+
+.title {
+  color: #c2f1e5;
+  text-shadow: 7px 0px 2px #666666;
+}
+
+.btn-action {
+  /* If not given the box-model flows out of the container */
+  display: inline-block;
+  margin-bottom: 10px 0;
+}
+
+/**************** MAIN Styles ********************/
+main {
+  background-color: #c2f1e5;
+  color: #509b85;
+}
+
+.detail {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.detail-title {
+  margin-bottom: 25px;
+  color: inherit;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  margin: 0 20px;
+}
+
+.col-img {
+  width: 300px;
+}
+
+.player-name {
+  color: #f0c94b;
+  text-shadow: 0 0px 2px #666666;
+}
+
+/******************** FOOTER Styles ********************/
+.footer {
+  margin: 0;
+}

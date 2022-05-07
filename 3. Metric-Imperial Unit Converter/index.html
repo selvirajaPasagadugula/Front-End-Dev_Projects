@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric-Imperial Unit Converter</title>
+    <!----------------- Google Fonts --------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <!----------------- Custom Styles -------------------->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 id="header">Metric-Imperial Unit Conversion</h1>
+            <p id="user-input">0</p>
+            <div class="action">
+                <input type="text" placeholder="Enter a number" id="entered-input">
+                <button class="btn-dark" type="button" onclick="calculate();">Do Conversion</button>
+            </div>
+        </div>
+        <div class="conversion">
+            <div class="conversion-detail">
+                <h4 class="unit-title">Length(Meter-Feet)</h4>
+                <p class="conversion-unit">
+                    <span class="input">0</span> meters = <span id="mt-ft">0.000</span> feet
+                    &emsp;|&emsp;
+                    <span class="input">0</span> feet = <span id="ft-mt">0.000</span> meters
+                </p>
+            </div>
+            <div class="conversion-detail">
+                <h4 class="unit-title">Volume(Liters-Gallons)</h4>
+                <p class="conversion-unit">
+                    <span class="input">0</span> litres = <span id="lt-gl">0.000</span> gallons
+                    &emsp;|&emsp;
+                    <span class="input">0</span> gallons = <span id="gl-lt">0.000</span> litres
+                </p>
+            </div>
+            <div class="conversion-detail">
+                <h4 class="unit-title">Mass(Kilograms-Pounds)</h4>
+                <p class="conversion-unit">
+                    <span class="input">0</span> kilos = <span id="kl-po">0.000</span> pounds
+                    &emsp;|&emsp;
+                    <span class="input">0</span> pounds = <span id="po-kl">0.000</span> kilos
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
